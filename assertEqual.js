@@ -1,6 +1,12 @@
 const assertEqual = function(actual, expected) {
-  return actual === expected;
+
+  actual === expected ? console.log(`✅✅✅ Assertion Passed: ${actual} === ${expected}`) : console.log(`🛑🛑🛑 Assertion Failed: ${actual} !== ${expected}`)
+
 };
 
-console.assert(assertEqual(1,1));
-console.assert(assertEqual("Lighthouse","Bootcamp"));
+
+
+assertEqual(1,1);
+assertEqual("Lighthouse","Bootcamp");
+assertEqual(2,4);
+assertEqual("Aisle" , "Aisle");
