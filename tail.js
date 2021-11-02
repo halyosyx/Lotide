@@ -18,11 +18,4 @@ const tail = function(array) {
 
 };
 
-const num = [1,2,3,4,5]
-
-
-console.log(tail(num));
-
-assertArrayEqual(tail(num), [2,3,4,5])
-
-assertArrayEqual(num.length, 5);
+module.exports = tail;
