@@ -7,10 +7,10 @@ const middle = function(array) {
     return [];
   }
 
-  if (array.length % 2 == 1) {
+  if (array.length % 2 === 1) {
     middleElement.push(array[Math.floor(middle)]);
   }
-  if (array.length % 2 == 0) {
+  if (array.length % 2 === 0) {
       middleElement.push(array[middle - 1]);
       middleElement.push(array[middle]);
   }
