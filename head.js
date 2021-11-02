@@ -1,8 +1,4 @@
-const assertEqual = function(actual, expected) {
-
-    actual === expected ? console.log(`✅✅✅ Assertion Passed: ${actual} === ${expected}`) : console.log(`🛑🛑🛑 Assertion Failed: ${actual} !== ${expected}`)
-  
-  };
+  const assertEqual = require('./assertEqual');
 
   const head = function(array) {
 
@@ -11,7 +7,7 @@ const assertEqual = function(actual, expected) {
     }
 
     return array[0];
-  }
+  };
 
   assertEqual(head([5,6,7]), 5);
 
