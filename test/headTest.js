@@ -1,1 +1,1 @@
-const headTest = require('../head');
+const head = require('../head');
